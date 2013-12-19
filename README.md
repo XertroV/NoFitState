@@ -1,7 +1,7 @@
-NoFitState
+No Fit State
 ==========
 
-No Fit State - the place I put my thoughts.
+### The place I put my thoughts.
 
 The old subtitle was "on cryptocoins and democracy".
 
