@@ -447,6 +447,52 @@ Moving form Xcoin to Zcoin through Ycoin - all of which support symmetric exchan
 
 By voting on which market updates to accept (from which other cryptocurrencies) and which markets to run, it will be possible to create a dynamic mesh of markets, forming many possible paths between any cryptocurrencies. (In the worst situation, a coin can run an asymmetric market and use that to trade into and out of foreign block chains.)
 
+### Finding Efficiency
+
+Every novel technology developed will be hindered by regulation in a unique way. The 'directness' of transferring fiat to crypto is a worry for a number of people (the same people as are behind the steering wheel of regulation). They feel they need to remain insulated from the untested Bitcoin. Perhaps they would feel more comfortable with a bridging technology, such as a cryptocoin pegged to a parent currency, that just so happens to natively interact with a distributed market.
+
+Lets have a look at that, shall we?
+
+	TITLE: AUD -> CRYPTO-AUD -> BITCOIN
+	BANKING:
+	__________________________________________
+	AUD 
+	 P1==>BRK---+                      +==>P2
+	____________|______________________|______
+	            |                      |
+	CRYPTO:     |                      |
+	____________|______________________|______
+	CRYPTO-AUD  |                      |
+	            +-M>P1--#-•X>P2--D>BRK-+                  
+	_______________________|__________________
+	BITCOIN                |         
+	 P2------------#-•.....X...•&>P1                  
+	__________________________________________
+	
+This, however, will likely not be the first iteration. It is elegant, quick, and efficient, but there are likely to be many sticking points before that can be realised. Firstly, Bitcoin doesn't support knowledgeable asymmetric exchange, and there is a strong possibility that too much regulatory pressure will require CRYPTO-AUD to ship without an exchange. Therefore the *first* iteration might look something a little more like:
+
+
+	TITLE: AUD -> CRYPTO-AUD -> MARKETCOIN -> BITCOIN
+	BANKING:
+	______________________________________________________________________
+	AUD 
+	 P1==>BRK---+                          +==>P2
+	____________|__________________________|______________________________
+	            |                          |
+	CRYPTO:     |                          |
+	____________|__________________________|______________________________
+	CRYPTO-AUD  |                          |
+	            +-M>P1--+--X-+->P2-•-D>BRK-+                 
+	____________________|__|_|____________________________________________
+	MARKETCOIN          #  | +---------@       +--#-•X.............•&>P3
+	 P2------------#------•X.............•&>P1-+ #   |  +-------@          
+	_____________________________________________|___|__|_________________
+	BITCOIN                                      |   |  |
+	 P3------------------------------------------+---X--+->P1 •
+	______________________________________________________________________
+	
+Not as pretty. Compared to a our current fiat exchanges, this doesn't look that appealing. That said, legally CRYPTO-AUD is far more comparable to a traditional payment processing system such as PayPal. By exploring the edge cases of regulation we can help find the inconsistencies and assist its evolution. An attack on Bitcoin by a Government will necessarily involve shutting down the flow of fiat into Bitcoin as much as possible. One strategy is to create useful technologies that are too similar to existing tech (PayPal, Visa) so we can stand on some very resilient legal precedents and standards if these systems are challenged. These middle ground crypto networks, then, cannot be made illegal without negatively effecting the current corporate monopoly because they are designed to resemble them so much. Whether that's possible is another matter.
+
 ## Conclusions
 
 We know that regulatory pressure can be applied to restrict a flow of Dollars/Yen/Euros anywhere. While this investigation into distributed exchange didn't identify how to expunge regulatory pressure, it did yield at least one other method of allowing value to move from Fiat to Bitcoin: distributed cross-chain markets for cryptocurrency. By building a PayPal-like network built on Bitcoin and minted/destroyed in the same fashion as PayPal (deposit -> mint, withdraw -> destroy). Ultimately some legal entity must be responsible for the cash-in/out process, but this can now safely be entertained without needing to worry about the regulation surrounding running an exchange - provided there is a cross-chain market out there already.
