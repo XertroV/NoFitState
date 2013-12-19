@@ -8,6 +8,7 @@ The old subtitle was "on cryptocoins and democracy".
 ## Posts (newest first):
 
 * [Factum Exchange](https://github.com/XertroV/NoFitState/blob/master/FactumExchange.md)
+* [Factum Money](https://github.com/XertroV/NoFitState/blob/master/FactumMoney.md)
 
 ## License
 
