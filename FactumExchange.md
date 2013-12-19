@@ -1,6 +1,6 @@
 # Introducing Factum Exchange
 
-In my [first post](http://xk.io/wp/?p=28) in the factum series I looked at Factum Money, a new category of money which has no non-financial use (or if there is a non-financial use, it is a distance second when ranked by utility), and has no extrinsic requirement to hold value. That is to say, the main utility of Factum Money is as money, and we can see this by looking at the properties of said money and *nothing more*.
+In my [first post](FactumMoney.md) in the factum series I looked at Factum Money, a new category of money which has no non-financial use (or if there is a non-financial use, it is a distance second when ranked by utility), and has no extrinsic requirement to hold value. That is to say, the main utility of Factum Money is as money, and we can see this by looking at the properties of said money and *nothing more*.
 
 Commodity money and commodity backed money have common non-financial uses and often this is their primary use, and it is thus trivial to see they are not factum money. Fiat money (such as common government issued monies in use today) has no substantial non-financial use, however, by looking solely at the construction of fiat money we can see that it is not guaranteed to have a non-zero value. Most (if not all) of the time fiat money will acquire value through the exercise of authority, which almost ubiquitously takes a legal form.
 
